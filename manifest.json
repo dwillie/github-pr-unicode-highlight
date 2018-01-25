@@ -7,7 +7,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://github.com/*/*/pull/*"],
+      "matches": ["*://github.com/*/*/pull/*/files"],
       "js": ["pr-check.js"]
     }
   ]
